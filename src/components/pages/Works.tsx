@@ -12,7 +12,7 @@ import {
 import { useEffect, useState } from "react";
 
 export default function FrontendSkillsShowcase() {
-  const [activeSkill, setActiveSkill] = useState(0);
+  const [, setActiveSkill] = useState(0);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -277,7 +277,7 @@ export default function FrontendSkillsShowcase() {
             { number: "5+", label: "Years Experience" },
             { number: "20+", label: "Technologies Mastered" },
             { number: "100%", label: "Client Satisfaction" },
-          ].map((stat, index) => (
+          ].map((stat) => (
             <div key={stat.label} className="group">
               <div className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2 group-hover:scale-110 transition-transform">
                 {stat.number}

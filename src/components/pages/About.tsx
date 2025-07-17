@@ -100,8 +100,8 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="mt-20 max-w-[1000px] text-center  mx-auto text-2xl font-bold">
-        <p>
+      <div className="mt-20  text-center  mx-auto text-2xl font-bold">
+        <p className="text-lg leading-relaxed text-white font-medium max-w-[1400px] mx-auto px-4 md:px-0">
           As a passionate Front-End Developer, I specialize in building
           responsive, accessible, and visually engaging web applications using
           modern technologies like React, TypeScript, and Tailwind CSS. I thrive

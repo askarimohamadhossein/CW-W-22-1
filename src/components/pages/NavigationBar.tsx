@@ -5,7 +5,7 @@ import { Button } from "../atoms/Button";
 export const NavigationBar: React.FC = () => {
   return (
     <div>
-      <nav className="flex gap-2 p-4">
+      <nav className="flex gap-2 p-6 fixed z-40">
         <Link to="/About">
           <Button name="About" />
         </Link>
