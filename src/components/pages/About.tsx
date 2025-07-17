@@ -12,25 +12,25 @@ export default function About() {
 
   const icons = [
     {
-      name: "Premiere Pro",
+      name: "",
       position: "top-left",
       delay: "0s",
       icon: "🎬",
     },
     {
-      name: "Photoshop",
+      name: "",
       position: "top-right",
       delay: "0.5s",
       icon: "💻",
     },
     {
-      name: "Illustrator",
+      name: "",
       position: "bottom-left",
       delay: "1s",
       icon: "🧠",
     },
     {
-      name: "After Effects",
+      name: "",
       position: "bottom-right",
       delay: "1.5s",
       icon: "🌍",
