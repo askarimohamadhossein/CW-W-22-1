@@ -53,7 +53,7 @@ export default function About() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-800 flex-col items-center justify-center p-4">
+    <div className="min-h-screen  flex-col items-center justify-center p-4 mt-20">
       <div className="relative w-full max-w-4xl mx-auto">
         {icons.map((icon) => (
           <div

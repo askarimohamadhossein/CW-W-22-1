@@ -12,7 +12,10 @@ export const Button: React.FC<IButtonProps> = ({
 }) => {
   return (
     <div>
-      <button className={classname ?? "btn btn-soft btn-primary"} {...props}>
+      <button
+        className={classname ?? "btn btn-soft btn-primary w-40"}
+        {...props}
+      >
         {name}
       </button>
     </div>
