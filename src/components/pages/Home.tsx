@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Char from "../../assets/image/char2.jpg";
+import Char from "../../assets/image/me.jpg";
 import { Button } from "../atoms/Button";
 
 export const HomePage = () => {
@@ -23,7 +23,7 @@ export const HomePage = () => {
       </section>
       <section>
         <img
-          className="w-[800px] h-[800px] rounded-full mt-15 mx-auto"
+          className="w-[750px] h-[750px] rounded-full mt-15 mx-auto"
           src={Char}
           alt=""
         />
