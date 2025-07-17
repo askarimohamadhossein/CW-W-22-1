@@ -25,7 +25,7 @@ export const HomePage = () => {
         <img
           className="w-[750px] h-[750px] rounded-full mt-15 mx-auto"
           src={Char}
-          alt=""
+          alt="Photo"
         />
       </section>
     </div>
