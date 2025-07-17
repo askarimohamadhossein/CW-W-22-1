@@ -9,7 +9,7 @@ export const NavigationBar: React.FC = () => {
         <Link to="/About">
           <Button name="About" />
         </Link>
-        <Link to="/works">
+        <Link to="/Works">
           <Button classname="btn btn-soft btn-success" name="Works" />
         </Link>
         <Link to="/ContactForm">

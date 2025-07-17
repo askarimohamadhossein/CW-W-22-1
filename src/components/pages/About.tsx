@@ -91,11 +91,10 @@ export default function About() {
 
             <div className="space-y-2 text-white">
               <p className="text-lg md:text-xl">
-                Your all-in-one visual director and content creator, rooted in
-                years of diverse experience.
+                Your all-in-one visual director and content creator
               </p>
               <p className="text-lg md:text-xl">
-                Ready to exceed your expectations, from studio to screen!
+                Ready to exceed your expectations
               </p>
             </div>
           </div>
